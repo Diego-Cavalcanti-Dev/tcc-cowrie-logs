@@ -1,0 +1,193 @@
+{
+  "tipo": "conferencia_independente_posterior",
+  "confere_com_indicadores_tcc": true,
+  "comparacoes": {
+    "linhas": {
+      "esperado": 336431,
+      "obtido": 336431,
+      "confere": true
+    },
+    "json_validos": {
+      "esperado": 336429,
+      "obtido": 336429,
+      "confere": true
+    },
+    "eventos_excluidos": {
+      "esperado": 36,
+      "obtido": 36,
+      "confere": true
+    },
+    "sessoes_excluidas": {
+      "esperado": 6,
+      "obtido": 6,
+      "confere": true
+    },
+    "eventos_analisados": {
+      "esperado": 336393,
+      "obtido": 336393,
+      "confere": true
+    },
+    "conexoes": {
+      "esperado": 52003,
+      "obtido": 52003,
+      "confere": true
+    },
+    "sessoes": {
+      "esperado": 52003,
+      "obtido": 52003,
+      "confere": true
+    },
+    "ips_distintos": {
+      "esperado": 1874,
+      "obtido": 1874,
+      "confere": true
+    },
+    "autenticacoes_aceitas": {
+      "esperado": 49937,
+      "obtido": 49937,
+      "confere": true
+    },
+    "autenticacoes_rejeitadas": {
+      "esperado": 82,
+      "obtido": 82,
+      "confere": true
+    },
+    "sessoes_com_entrada": {
+      "esperado": 23998,
+      "obtido": 23998,
+      "confere": true
+    },
+    "entradas": {
+      "esperado": 27994,
+      "obtido": 27994,
+      "confere": true
+    },
+    "entradas_distintas": {
+      "esperado": 2287,
+      "obtido": 2287,
+      "confere": true
+    },
+    "sequencias_distintas": {
+      "esperado": 86,
+      "obtido": 86,
+      "confere": true
+    },
+    "usuarios_distintos": {
+      "esperado": 750,
+      "obtido": 750,
+      "confere": true
+    },
+    "senhas_distintas": {
+      "esperado": 13850,
+      "obtido": 13850,
+      "confere": true
+    },
+    "pares_distintos": {
+      "esperado": 25665,
+      "obtido": 25665,
+      "confere": true
+    },
+    "eventos_arquivo_download": {
+      "esperado": 1023,
+      "obtido": 1023,
+      "confere": true
+    },
+    "eventos_arquivo_upload": {
+      "esperado": 68,
+      "obtido": 68,
+      "confere": true
+    },
+    "objetos_duplicados": {
+      "esperado": 0,
+      "obtido": 0,
+      "confere": true
+    }
+  },
+  "diario_confere": true,
+  "diario": {
+    "2026-10-21": {
+      "eventos": 64696,
+      "conexoes": 8249,
+      "aceitas": 7986,
+      "entradas": 8049,
+      "rejeitadas": 21
+    },
+    "2026-10-22": {
+      "eventos": 36506,
+      "conexoes": 4796,
+      "aceitas": 4589,
+      "entradas": 4329,
+      "rejeitadas": 11
+    },
+    "2026-10-23": {
+      "eventos": 42984,
+      "entradas": 2607,
+      "conexoes": 7166,
+      "aceitas": 6798,
+      "rejeitadas": 13
+    },
+    "2026-10-24": {
+      "eventos": 92533,
+      "conexoes": 15463,
+      "aceitas": 14783,
+      "rejeitadas": 22,
+      "entradas": 5646
+    },
+    "2026-10-25": {
+      "eventos": 99674,
+      "conexoes": 16329,
+      "aceitas": 15781,
+      "entradas": 7363,
+      "rejeitadas": 15
+    }
+  },
+  "linhas_invalidas_conferem": true,
+  "linhas_invalidas": [
+    {
+      "arquivo": "cowrie.json.2026-10-25",
+      "linha": 511,
+      "conteudo": "B"
+    },
+    {
+      "arquivo": "cowrie.json.2026-10-25",
+      "linha": 528,
+      "conteudo": "B"
+    }
+  ],
+  "primeiro_evento": "2026-10-21T00:01:18.753196Z",
+  "ultimo_evento": "2026-10-25T23:59:58.100368Z",
+  "periodo_confere": true,
+  "arquivos_json": [
+    {
+      "arquivo": "Logs cowrie/cowrie.json.2026-10-21",
+      "bytes": 37232198,
+      "linhas": 64726,
+      "sha256": "72bc8e199458e894c0d07f9fa55f04416e24f4420d9b2c117f47d049a86c7b7b"
+    },
+    {
+      "arquivo": "Logs cowrie/cowrie.json.2026-10-22",
+      "bytes": 21207124,
+      "linhas": 36512,
+      "sha256": "b8018a2f232209d08980e7472f6376796ea2fe6328b3876f7e9d9268c86447c7"
+    },
+    {
+      "arquivo": "Logs cowrie/cowrie.json.2026-10-23",
+      "bytes": 26734004,
+      "linhas": 42984,
+      "sha256": "e0a8d256c673b2d1e055178beaf8ce87c6ce2effc56f8ad32efc062d217c02af"
+    },
+    {
+      "arquivo": "Logs cowrie/cowrie.json.2026-10-24",
+      "bytes": 57097195,
+      "linhas": 92533,
+      "sha256": "5e12f339358011272e5ba1dc375891892e1c2bf63999c4066742df409c2240f1"
+    },
+    {
+      "arquivo": "Logs cowrie/cowrie.json.2026-10-25",
+      "bytes": 60524366,
+      "linhas": 99676,
+      "sha256": "95b9a0cb64daf475748e414bc8abaa5f57d0070c80ee736401e880f869232be5"
+    }
+  ],
+  "limite": "Coincidência de indicadores não prova identidade histórica byte a byte."
+}
